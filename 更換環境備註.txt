@@ -1,5 +1,6 @@
-TEST資料夾應該放置在G:\xampp\htdocs
-網頁應該是
+伺服器使用 xampp
+將網頁儲存在xampp\htdocs
+網頁是
 http://localhost/TEST/
 
 資料庫phpmyadmin        //http://localhost/phpmyadmin/
@@ -12,8 +13,7 @@ MySQL 都選start
 
 打開網頁 http://localhost/TEST/index.php
 
-
-或許要修正:
+要修正:
 mysqli_connect("localhost", "root", "123", "fruit_company");
 "localhost": 這是 MySQL 伺服器的主機名稱或 IP 位址。在這裡使用 "localhost" 表示 MySQL 伺服器位於本地機上。
 
@@ -22,10 +22,6 @@ mysqli_connect("localhost", "root", "123", "fruit_company");
 "123": 這是 MySQL 使用者的密碼。在這裡使用 "123" 表示使用密碼 "123" 來連接 MySQL。在實際應用中，請使用更安全的密碼。
 
 "fruit_company": 這是要連接的資料庫名稱。在這裡使用 "fruit_company" 表示要連接到名為 "fruit_company" 的資料庫。
-
-
-
-
 
 admin_dashboard.php  ##line 14
 dbConnection
