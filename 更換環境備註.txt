@@ -1,0 +1,57 @@
+TEST資料夾應該放置在G:\xampp\htdocs
+網頁應該是
+http://localhost/TEST/
+
+資料庫phpmyadmin        //http://localhost/phpmyadmin/
+
+匯入fruit_company
+
+開啟xampp contronal 
+Apache
+MySQL 都選start
+
+打開網頁 http://localhost/TEST/index.php
+
+
+或許要修正:
+mysqli_connect("localhost", "root", "123", "fruit_company");
+"localhost": 這是 MySQL 伺服器的主機名稱或 IP 位址。在這裡使用 "localhost" 表示 MySQL 伺服器位於本地機上。
+
+"root": 這是 MySQL 伺服器的使用者名稱。在這裡使用 "root" 表示使用 root 使用者來連接資料庫。在實際的生產環境中，應該使用有限權限的使用者。
+
+"123": 這是 MySQL 使用者的密碼。在這裡使用 "123" 表示使用密碼 "123" 來連接 MySQL。在實際應用中，請使用更安全的密碼。
+
+"fruit_company": 這是要連接的資料庫名稱。在這裡使用 "fruit_company" 表示要連接到名為 "fruit_company" 的資料庫。
+
+
+
+
+
+admin_dashboard.php  ##line 14
+dbConnection
+deala01.php	 ##line 5 8 52
+login_process.php ##line  8 42
+update_hidden.php ##line  3 6 45
+Register.php	##line  5 8 
+
+
+
+管理帳號A555555555 123
+
+客戶帳號A123456789 a123
+
+
+操作用
+
+新增水果14-153-674-22、楊桃、東海、500、個、30、5f
+
+新會員 A020231225、789、木可P、0289988998、0988888888、dio@google.com、嘉義、30
+
+新增供應商52614582、水果A、0455566611、ZZB789456@gmail.com、ABC、John
+
+管理方 - 刪除水果資料查詢：香蕉
+
+
+
+
+
